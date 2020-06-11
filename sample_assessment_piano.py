@@ -11,13 +11,13 @@ from sklearn.model_selection import train_test_split
 
 import simmusic
 from pychord_tools.models import load_model
-import guitar_for_beginners.code.piano as piano
+
+import code.piano as piano
 
 
 EXPERIMENTS_DIR = "guitar_for_beginners/data/exercises/piano_experiments"
 LATENCY = 0.0
 AW = load_model(os.path.join(simmusic.__path__[0], 'extractors/guitar_models/picking_workflow.pkl'))
-
 
 
 def main(experiments_dir: str):
