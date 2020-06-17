@@ -1,6 +1,7 @@
 # Piano Asess
 
 This repository contains part of the code used to develop the technologies for the automatic assessment of Piano Exercises.
+
 Contents of the reporsitory:
 
 ## sample_assessment_piano
