@@ -8,6 +8,9 @@ Contents of the reporsitory:
 
 Has two different functions: `main`, that corresponds to the overall feature extraction and training process of a dataset of piano exercises; and `single_file_assessment`, that corresponds to the feature extraction and assessment of a single file submission.
 The process for both is similar: first the features are computed, using the `feature_extraction` module, then statistics are computed. 
+
+<a href="https://ibb.co/8dsX0cz"><img src="https://i.ibb.co/xfL3DHm/Screenshot-2020-05-21-at-17-30-40.png" alt="Screenshot-2020-05-21-at-17-30-40" border="0"></a>
+
 - For the **training**, the models are defined, trained with those statistics (of the whole dataset) and then saved to files. 
 - For the **assessment**, the model files are loaded and the submission is assessed, with the computed statistics. 
 ### `main()`
